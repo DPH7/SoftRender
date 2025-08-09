@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="window">
+      <UniqueIdentifier>{cc9397a3-c78f-48b4-a21b-4787c6d79c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="global">
+      <UniqueIdentifier>{492a336e-c864-4919-9593-db8bb1b7bf6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{35d384c6-c05b-4ecd-b3b7-2f8f2acc0d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{bff71dc0-6b74-4e7b-b7b5-f209e69e5645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{dd046a2e-bd39-4480-99e3-754df0952a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thridPart">
+      <UniqueIdentifier>{9741bb9b-e7d6-4efe-8a4b-ac3275154120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="basic">
+      <UniqueIdentifier>{ac7f7496-d3ca-4d92-a5a3-65560456dbb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="component">
+      <UniqueIdentifier>{9e072ea9-7be0-4956-86d0-7b6e49451d77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="window_system.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="global_context.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="render_system.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="frame_buffer.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="vertex_output.h">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OpenGl\include\glad\glad.cpp">
+      <Filter>thridPart</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="window_system.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="global_context.h">
+      <Filter>global</Filter>
+    </ClInclude>
+    <ClInclude Include="input_system.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="render_system.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_system.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="fragment_shader_basic.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="frame_buffer.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex_shader.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="math_func.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\OpenGl\include\glad\glad.h">
+      <Filter>thridPart</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="globel.h">
+      <Filter>global</Filter>
+    </ClInclude>
+    <ClInclude Include="fragment_shader.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject.h">
+      <Filter>basic</Filter>
+    </ClInclude>
+    <ClInclude Include="vertex_shader_basic.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>component</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
